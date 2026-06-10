@@ -19,7 +19,7 @@ abstract class PesananTransportasi
         LokasiTujuan = lokasiTujuan;
     }
 
-    // Method umum
+    
     public void TampilInfo()
     {
         Console.WriteLine("Nama: " + NamaPenumpang + " | ID: " + IdPesanan + " | Tujuan: " + LokasiTujuan);
