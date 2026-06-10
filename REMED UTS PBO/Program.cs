@@ -55,7 +55,7 @@ class LayananMotor : PesananTransportasi
         TarifPerKm = tarifPerKm;
     }
 
-    // 3. POLYMORPHISM - override
+    // 3. POLYMORPHISM
     public override double HitungTarif(double jarakKm)
     {
         return jarakKm * TarifPerKm;
@@ -75,7 +75,7 @@ class LayananMobil : PesananTransportasi
         BiayaTol = biayaTol;
     }
 
-    // 3. POLYMORPHISM - override
+    // 3. POLYMORPHISM
     public override double HitungTarif(double jarakKm)
     {
         return (jarakKm * TarifPerKm) + BiayaTol;
@@ -102,7 +102,6 @@ class RiwayatPerjalanan
     }
 }
 
-// Main
 class Program
 {
     static void Main(string[] args)
